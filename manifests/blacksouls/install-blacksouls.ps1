@@ -1,11 +1,8 @@
 $installDir = "$env:USERPROFILE\Games\BlackSouls"
 New-Item -ItemType Directory -Path $installDir -Force
 
-Write-Host "Extracting Black Souls game..."
-& "C:\Program Files\WinRAR\WinRAR.exe" x -o+ ".\blacksouls.rar" "$installDir\"
-
-Write-Host "Extracting RTC..."
-& "C:\Program Files\WinRAR\WinRAR.exe" x -o+ ".\rtc.rar" "$installDir\RTC\"
+Write-Host "Extracting BLACK.SOULS.rar..."
+& "C:\Program Files\WinRAR\WinRAR.exe" x -o+ ".\BLACK.SOULS.rar" "$installDir\"
 
 # Optional: Create desktop shortcut
 $ws = New-Object -ComObject WScript.Shell
