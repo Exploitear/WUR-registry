@@ -1,0 +1,13 @@
+Id: blacksouls
+Name: Black Souls + RTC
+Version: 1.0.0
+Publisher: Shiraori
+Installers:
+  - Arch: x64
+    InstallerType: custom
+    Files:
+      - Name: blacksouls.rar
+        Url: https://example.com/blacksouls.rar
+      - Name: rtc.rar
+        Url: https://example.com/rtc.rar
+    PostInstallScript: install-blacksouls.ps1
